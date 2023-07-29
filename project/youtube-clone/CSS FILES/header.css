@@ -1,0 +1,254 @@
+.header-section{
+    display: flex;
+    background-color: white;
+    height: 60px;
+    column-gap: 140px;
+    justify-content: space-between;
+    position:fixed;
+    z-index: 200;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgb(221, 218, 218);
+}
+
+.left-section{
+    
+    display: flex;
+    margin-right: 25px;
+}
+.middle-section{
+    width: 650px;
+    
+    display: flex;
+}
+
+
+
+.n1{
+    width: 25px;
+    margin-top: -7px;
+    
+    padding-left: 15px;
+    padding-right: 19px;
+}
+
+.n2{
+    margin-top: -7px;
+    width: 100px;
+    
+}
+.search-button{
+    position: relative;
+    margin-top: 10px;
+    margin-left: -8px;
+    vertical-align:middle;
+    height: 40px;
+    width: 57px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    border-style:solid;
+    border-color: rgb(198, 196, 196);
+    background-color: rgb(243, 243, 243);
+
+}
+.search-icon{
+    width: 25px;
+    
+}
+
+.voice-button{
+    position: relative;
+    margin-top: 10px;
+    vertical-align: middle;
+    height: 43px;
+    margin-left: 10px;
+    width: 43px;
+    border-radius: 22px;
+    border-style: none;
+    background-color: rgb(243, 243, 243);
+
+}
+
+.voice-search-icon{
+    padding-top: 7px;
+    width: 25px;
+}
+
+.search-bar{
+    flex: 1;
+    height: 36px;
+    margin-top: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px ;
+    padding-left: 14px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: rgb(156, 154, 154);
+    border-style: solid;
+    
+   
+}
+.right-section{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    column-gap: 20px;
+
+}
+
+.g1{
+    width: 30px;
+    margin-top: 0px;
+}
+
+.g2{
+    width: 30px;
+    margin-top: 0px;
+   
+}
+
+.g3{
+    width: 30px;
+    margin-top: 0px;
+    position: relative;
+}
+.g4{
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+    border-radius: 20px;
+    
+}
+
+.misc1{
+    position: relative;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.misc2{
+    position: relative;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.misc3{
+    position: relative;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.misc4{
+    position: relative;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+
+
+.notification-icon{
+    position: relative;
+
+}
+
+
+.notification-number{
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    position: absolute;
+    z-index: 200;
+    width: 18px;
+    background-color: rgb(179, 47, 47);
+    border-radius: 9px;
+    border-style: none;
+    left: 15px;
+    bottom: 19px;
+    
+
+}
+
+
+.search-button .search-notification{
+    padding: 10px; 
+    position: absolute;
+    background-color: rgb(128, 126, 126);
+    color: white;
+    bottom: -45px;
+    right: 0px;
+    opacity: 0;
+    
+}
+
+.search-button:hover .search-notification{
+    opacity: 1;
+}
+
+.voice-button .voice-notification{
+    padding: 7px; 
+    width: 150px;
+    position: absolute;
+    background-color: rgb(128, 126, 126);
+    color: white;
+    bottom: -38px;
+    right: -55px;
+    opacity: 0;
+}
+
+.voice-button:hover .voice-notification{
+    opacity: 1;
+
+}
+
+.misc1 .create-notification{
+    position: absolute;
+    background-color: rgb(128, 126, 126);
+    color: white;
+    padding: 5px;
+    top: 45px;
+    right: -7px;
+    opacity: 0;
+}
+.misc1:hover .create-notification{
+    opacity: 1;
+}
+
+.misc2 .noti-notification{
+    position: absolute;
+    width: 100px;
+    background-color: rgb(128, 126, 126);
+    color: white;
+    padding: 5px;
+    top: 45px;
+    right: -30px;
+    opacity: 0;
+}
+.misc2:hover .noti-notification{
+    opacity: 1;
+}
+
+.misc3 .youtube-notification{
+    position: absolute;
+    width: 80px;
+    background-color: rgb(128, 126, 126);
+    color: white;
+    padding: 5px;
+    top: 45px;
+    right: -20px;
+    opacity: 0;
+}
+.misc3:hover .youtube-notification{
+    opacity: 1;
+}
+
+
+
+
+
